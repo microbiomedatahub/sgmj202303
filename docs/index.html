@@ -38,20 +38,50 @@
 			<div class="top_image">
 				<img src="images/Kazusa.jpg" width="664" height="280" alt="" />
 				<div class="top_image_content">
-					<svg width='600' height='250' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+					<svg width='664' height='280' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+						<style>
+							#title_box{
+								fill: #ee6352;
+								fill-opacity: 0.7;
+							}
+							#title_text{
+								fill: #ffffff;
+								font-size: 25px;
+								font-weight: bold;
+								font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+							}
+							#content_box{
+								fill: #08b2e3;
+								fill-opacity: 0.7;
+							}
+							#content_text{
+								fill: #ffffff;
+								font-size: 25px;
+								font-weight: bold;
+								font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+								text-anchor: 'left';
+								stroke-width: 0.01;
+								stroke-linejoin: round;
+							}
+						</style>
 						<g id='columnGroup'>
-						<rect x ="25" y ="57" height ="30" width ="55" rx ="10" ry ="10" fill='white' />
-						<rect x ="25" y ="107" height ="30" width ="75" rx ="10" ry ="10" fill='white' />
-						<rect x ="25" y ="157" height ="30" width ="55" rx ="10" ry ="10" fill='white' />
-						<text x='30' y='30' font-size='20px' font-weight='bold' fill='black'>
-							<tspan x='30' dy='2.5em'>会期</tspan>
-							<tspan x='30' dy='2.5em'>年会長</tspan>
-							<tspan x='30' dy='2.5em'>会場</tspan>
+						<rect id='title_box' x="45" y="18" height="35" width="65" rx="10" ry="10"/>
+						<rect id='title_box' x="45" y="80" height="35" width="85" rx ="10" ry ="10"/>
+						<rect id='title_box' x="45" y="143" height="35" width="65" rx="10" ry="10"/>
+						<text id='title_text' x='50' y='-20'>
+							<tspan x='50' dy='2.5em'>会期</tspan>
+							<tspan x='50' dy='2.5em'>年会長</tspan>
+							<tspan x='50' dy='2.5em'>会場</tspan>
 						</text>
-						<text x='120' y='30' font-size='20px' font-weight='bold' text-anchor='left' fill="white" stroke="#000" stroke-width="0.01" stroke-linejoin="round">
-							<tspan x='120' dy='2.5em'>2023年3月8日(水)〜10日(金)</tspan>
-							<tspan x='120' dy='2.5em'>田畑哲之（かずさDNA研究所）</tspan>
-							<tspan x='120' dy='2.5em'>かずさアカデミアホール + 一部ハイブリッド開催</tspan>
+						<rect id='content_box' x="135" y="18" height="30" width="330" rx="10" ry="10"/>
+						<rect id='content_box' x="135" y="80" height="30" width="360" rx ="10" ry ="10"/>
+						<rect id='content_box' x="135" y="143" height="30" width="290" rx="10" ry="10"/>
+						<rect id='content_box' x="135" y="208" height="30" width="290" rx="10" ry="10"/>
+						<text id='content_text' x='140' y='-20'>
+							<tspan x='140' dy='2.5em'>2023年3月8日(水)〜10日(金)</tspan>
+							<tspan x='140' dy='2.5em'>田畑哲之（かずさDNA研究所）</tspan>
+							<tspan x='140' dy='2.5em'>かずさアカデミアホール</tspan>
+							<tspan x='140' dy='2.5em'>+ 一部ハイブリッド開催</tspan>
 						</text>
 						</g>
 					</svg>
